@@ -1,0 +1,19 @@
+1. Start the 'Zookeeper Server' by using below command
+
+	CMD:	.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+2. Start the 'Kafka-Server' using below commad
+
+	CMD:	.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+3. Implement the Kafka-Application
+	> Run the Application
+	> Make the Request
+
+4. Enter below command to View Topics in the Kafka Server
+
+	CMD:	.\bin\windows\kafka-console-consumer.bat --topic order-topic1 --from-beginning --bootstrap-server localhost:9092
+
+5. Implement the Kafka-Consumer Code
+	> Will get Producer-Response in the Consumer Console window
+	
